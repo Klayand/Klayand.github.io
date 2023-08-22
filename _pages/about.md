@@ -60,6 +60,9 @@ Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 ## AFN: Adaptive Fusion Normalization via Encoder-Decoder Framework
 - [[code](https://github.com/Klayand/ASRNorm)]
 
+## Similar-Target-Attacker
+- [[code](https://github.com/Klayand/Similar-Target-Attacker)]
+
 ## Adain
 - [[code](https://github.com/Klayand/Adain-reproduce)]
 
