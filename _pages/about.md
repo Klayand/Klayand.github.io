@@ -29,7 +29,7 @@ I'm interested in Model Compression and AIGC.
 
 
 ## AFN: Adaptive Fusion Normalization via Encoder-Decoder Framework
-**Zikai Zhou**, Huanran Chen            
+**Zikai Zhou**, ${Huanran Chen}^\dagger$            
 -  [[arxiv](https://arxiv.org/abs/2308.03321)]
 
 ## SE-PROTONET: PROTOTYPICAL NETWORK WITH SQUEEZE-AND-EXCITATION BLOCKS FOR BIOACOUSTIC EVENT DETECTION
