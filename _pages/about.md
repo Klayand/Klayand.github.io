@@ -36,9 +36,9 @@ I'm interested in Model Compression and AIGC.
 Junyan Liu, **Zikai Zhou**, Mengkai Sun       
 - [[DCASE](https://dcase.community/documents/challenge2023/technical_reports/DCASE2023_XuQianHu_NUDT&BIT_t5.pdf)]
 
-
-
-
+## Boosting Adversarial Attack with Similar Target
+Shuo Zhang, Ziruo Wang, **Zikai Zhou**, Huanran Chen
+-  [[arxiv](https://arxiv.org/abs/2308.10743)]
 
 # 📖 Internships
 - *2022.03 - 2022.09*, Research Intern at BIT.    Advised by Prof. Xiqian Wang      
