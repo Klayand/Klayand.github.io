@@ -69,6 +69,8 @@ Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 ## A simple Diffusion
 - [[code](https://github.com/Klayand/simple-diffusion)]
 
+## Computer Science Foundation Website
+- [[code](https://github.com/Klayand/Computer-Science-Foundation-website)]
 
 # 💼 Academic Service
 - None
