@@ -78,23 +78,3 @@ Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 # 💼 Academic Service
 - None)]
 
-## Offline Platform for Anomaly Detection
-- [[code](https://github.com/Klayand/Offline_Platform)]
-
-## AFN: Adaptive Fusion Normalization via Encoder-Decoder Framework
-- [[code](https://github.com/Klayand/ASRNorm)]
-
-## Similar-Target-Attacker
-- [[code](https://github.com/Klayand/Similar-Target-Attacker)]
-
-## Adain
-- [[code](https://github.com/Klayand/Adain-reproduce)]
-
-## A simple Diffusion
-- [[code](https://github.com/Klayand/simple-diffusion)]
-
-## Computer Science Foundation Website
-- [[code](https://github.com/Klayand/Computer-Science-Foundation-website)]
-
-# 💼 Academic Service
-- None
