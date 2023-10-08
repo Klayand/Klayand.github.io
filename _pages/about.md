@@ -1,3 +1,14 @@
+---
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -66,5 +77,5 @@ Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 - [[code](https://github.com/Klayand/Computer-Science-Foundation-website)]
 
 # 💼 Academic Service
-- [(None)]
+- None
 
