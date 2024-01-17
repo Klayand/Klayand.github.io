@@ -37,7 +37,7 @@ I'm interested in Model Compression and AIGC.
 Junyan Liu, **Zikai Zhou**, Mengkai Sun       
 - [[DCASE](https://dcase.community/documents/challenge2023/technical_reports/DCASE2023_XuQianHu_NUDT&BIT_t5.pdf)]
 
-## Boosting Adversarial Attack with Similar Target
+## Enhancing Adversarial Attacks: The Similar Target Method
 Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 -  [[arxiv](https://arxiv.org/abs/2308.10743)]
 
