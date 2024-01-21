@@ -47,7 +47,7 @@ Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 
 # 📖 Internships
 - *2022.03 - 2022.09*, Research Intern at BIT.    Advised by Prof. Xiqian Wang      
-- *2022.11 - present*, Research Intern at BIT.    Advised by Prof. Kun Qian 
+- *2022.11 - 2023.09*, Research Intern at BIT.    Advised by Prof. Kun Qian 
 
 
 # 💻 Projects
