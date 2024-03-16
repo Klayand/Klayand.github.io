@@ -22,7 +22,7 @@ I'm a sophomore undergraduate from BIT.
 I'm interested in Model Compression and AIGC.       
 
 # 🔥 News
-- Invited Reviewer for ICME 2024, AAIML 2024
+- Invited Reviewer for ICME 2024, AAIML 2024, TMM 2024, and CVPRW 2024
 
 
 # 📝 Research Publications
@@ -42,7 +42,7 @@ Junyan Liu, **Zikai Zhou**, Mengkai Sun
 
 ## Enhancing Adversarial Attacks: The Similar Target Method
 Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
--  [[arxiv](https://arxiv.org/abs/2308.10743)]
+-  [[IJCNN](https://arxiv.org/abs/2308.10743)]
 
 
 # 📖 Internships
