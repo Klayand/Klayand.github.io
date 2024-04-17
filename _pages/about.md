@@ -29,8 +29,8 @@ I'm interested in Model Compression and AIGC.
 (\*: Equal Contribution; ${}^\dagger$: Corresponding Author)
 
 ## Rethinking Centered Kernel Alignment in Knowledge Distillation
-**Zikai Zhou**, Yunhang Shen, Shitong Shao, Huanran Chen, Linrui Gong, ${Shaohui Lin}^\dagger$            
--  [[arxiv](https://arxiv.org/abs/2401.11824)]
+**Zikai Zhou**, Yunhang Shen, Shitong Shao, Linrui Gong, ${Shaohui Lin}^\dagger$            
+-  [[IJCAI 24](https://arxiv.org/abs/2401.11824)]
 
 ## AFN: Adaptive Fusion Normalization via Encoder-Decoder Framework
 **Zikai Zhou**, ${Huanran Chen}^\dagger$            
@@ -42,7 +42,7 @@ Junyan Liu, **Zikai Zhou**, Mengkai Sun
 
 ## Enhancing Adversarial Attacks: The Similar Target Method
 Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
--  [[IJCNN](https://arxiv.org/abs/2308.10743)]
+-  [[IJCNN 24](https://arxiv.org/abs/2308.10743)]
 
 
 # 📖 Internships
