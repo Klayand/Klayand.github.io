@@ -30,7 +30,7 @@ I'm interested in Model Compression and AIGC.
 
 # Elucidating the Design Space of Dataset Condensation
 Shitong Shao, **Zikai Zhou**, Huanran Chen, ${Zhiqiang Shen}^\dagger$
--  [[arxiv]([https://arxiv.org/abs/2401.11824)]
+-  [[arxiv](https://arxiv.org/abs/2401.11824)]
 
 # Rethinking Centered Kernel Alignment in Knowledge Distillation
 **Zikai Zhou**, Yunhang Shen, Shitong Shao, Linrui Gong, ${Shaohui Lin}^\dagger$            
