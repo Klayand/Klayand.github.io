@@ -30,7 +30,7 @@ I'm interested in Model Compression and AIGC.
 
 # Elucidating the Design Space of Dataset Condensation
 Shitong Shao, **Zikai Zhou**, Huanran Chen, ${Zhiqiang Shen}^\dagger$
--  [[arxiv](https://arxiv.org/abs/2401.11824)]
+-  [[arxiv](https://arxiv.org/pdf/2404.13733)]
 
 # Rethinking Centered Kernel Alignment in Knowledge Distillation
 **Zikai Zhou**, Yunhang Shen, Shitong Shao, Linrui Gong, ${Shaohui Lin}^\dagger$            
@@ -51,7 +51,8 @@ Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 
 # 📖 Internships
 - *2022.03 - 2022.09*, Research Intern at BIT.    Advised by Prof. Xiqian Wang      
-- *2022.11 - 2023.09*, Research Intern at BIT.    Advised by Prof. Kun Qian 
+- *2022.11 - 2023.09*, Research Intern at BIT.    Advised by Prof. Kun Qian
+- *2024.04 - present*, Incoming PHD at HKUST-GZ.    Advised by Prof. Zeke Xie
 
 
 # 💻 Projects
