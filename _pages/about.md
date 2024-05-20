@@ -24,6 +24,11 @@ I'm interested in Model Compression and AIGC.
 # 🔥 News
 - Invited Reviewer for ICME 2024, AAIML 2024, TMM 2024, and CVPRW 2024
 
+# 📖 Internships
+- *2022.03 - 2022.09*, Research Intern at BIT.    Advised by Prof. Xiqian Wang      
+- *2022.11 - 2023.09*, Research Intern at BIT.    Advised by Prof. Kun Qian
+- *2024.04 - present*, Incoming PHD at HKUST-GZ.    Advised by Prof. Zeke Xie
+
 
 # 📝 Research Publications
 (\*: Equal Contribution; ${}^\dagger$: Corresponding Author)
@@ -48,11 +53,6 @@ Junyan Liu, **Zikai Zhou**, Mengkai Sun
 Shuo Zhang, Ziruo Wang, **Zikai Zhou**, ${Huanran Chen}^\dagger$
 -  [[IJCNN 24](https://arxiv.org/abs/2308.10743)]
 
-
-# 📖 Internships
-- *2022.03 - 2022.09*, Research Intern at BIT.    Advised by Prof. Xiqian Wang      
-- *2022.11 - 2023.09*, Research Intern at BIT.    Advised by Prof. Kun Qian
-- *2024.04 - present*, Incoming PHD at HKUST-GZ.    Advised by Prof. Zeke Xie
 
 
 # 💻 Projects
