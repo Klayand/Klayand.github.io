@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zikai Zhou"
-description              : "Individual Researcher"
+description              : "Incoming Phd in The Hong Kong Univerisity of Science and Technology(Guang Zhou)"
 repository               : "Klayand/Klayand.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zikai Zhou"
   avatar           : "images/icon.jpg"
-  bio              : "Individual Researcher"
+  bio              : "Incoming Phd in The Hong Kong Univerisity of Science and Technology(Guang Zhou)"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=u6TjscAAAAAJ"
-  email            : "zikaizhou@bit.edu.cn"
+  email            : "choukai003@gmail.com"
   researchgate     :
   uri              : "http://Klayand.github.io"
   bitbucket        :
