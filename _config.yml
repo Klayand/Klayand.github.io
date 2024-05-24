@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zikai Zhou"
   avatar           : "images/icon.jpg"
-  bio              : "Incoming Phd in The Hong Kong Univerisity of Science and Technology(Guang Zhou)"
+  bio              : # "Incoming Phd in The Hong Kong Univerisity of Science and Technology(Guang Zhou)"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
