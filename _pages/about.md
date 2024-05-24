@@ -22,6 +22,7 @@ I'm a sophomore undergraduate from BIT.
 I'm interested in Model Compression and AIGC.       
 
 # 🔥 News
+- Invited Reviewer for NeurIPS 2024
 - Invited Reviewer for ICME 2024, AAIML 2024, TMM 2024, CVPRW 2024 and ACM MM 2024
 
 # 📖 Internships
