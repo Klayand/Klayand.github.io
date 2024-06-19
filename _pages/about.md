@@ -40,7 +40,7 @@ Shitong Shao, **Zikai Zhou**, Huanran Chen, ${Zhiqiang Shen}^\dagger$
 
 # Rethinking Centered Kernel Alignment in Knowledge Distillation
 **Zikai Zhou**, Yunhang Shen, Shitong Shao, Linrui Gong, ${Shaohui Lin}^\dagger$            
--  [[IJCAI 24](https://arxiv.org/abs/2401.11824)]
+-  [[IJCAI 24](https://arxiv.org/abs/2401.11824)] (<font color=#FF000>orally presented</font>)
 
 ## AFN: Adaptive Fusion Normalization via Encoder-Decoder Framework
 **Zikai Zhou**, ${Huanran Chen}^\dagger$            
