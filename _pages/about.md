@@ -22,7 +22,7 @@ I'm a sophomore undergraduate from BIT.
 I'm interested in Model Compression and AIGC.       
 
 # 🔥 News
-- Invited Reviewer for ICLR 2025, NeurIPS 2024, ICPR 2024, ICME 2024, PRCV 2024 and CVPRW 2024
+- Invited Reviewer for ICLR 2025 AISTATS 2025, NeurIPS 2024, ICPR 2024, ICME 2024, PRCV 2024 and CVPRW 2024
 - Reviewer TMM 2024 and ACM MM 2024
 
 # 📖 Internships
@@ -36,7 +36,7 @@ I'm interested in Model Compression and AIGC.
 
 # Elucidating the Design Space of Dataset Condensation
 Shitong Shao, **Zikai Zhou**, Huanran Chen, ${Zhiqiang Shen}^\dagger$
--  [[arxiv](https://arxiv.org/pdf/2404.13733)]
+-  [[NeurIPS 24](https://arxiv.org/pdf/2404.13733)]
 
 # Rethinking Centered Kernel Alignment in Knowledge Distillation
 **Zikai Zhou**, Yunhang Shen, Shitong Shao, Linrui Gong, ${Shaohui Lin}^\dagger$            
