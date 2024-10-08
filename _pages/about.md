@@ -35,7 +35,7 @@ I'm interested in Model Compression and AIGC.
 (\*: Equal Contribution; ${}^\dagger$: Corresponding Author)
 
 # IV-Mixed Sampler: Leveraging Image Diffusion Models for Enhanced Video Synthesis
-Shitong Shao, **${Zikai Zhou}^*$**, Lichen Bai, Haoyi Xiond, ${Zeke Xie}^\dagger$
+Shitong Shao, **${Zikai Zhou}^*$**, Lichen Bai, Haoyi Xiong, ${Zeke Xie}^\dagger$
 - [[Arxiv](https://arxiv.org/abs/2410.04171)]
 
 # Elucidating the Design Space of Dataset Condensation
