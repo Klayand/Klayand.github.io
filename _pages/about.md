@@ -98,5 +98,5 @@ Shitong Shao, Lichen Bai, **Zikai Zhou**, Tian Ye, Yunfeng Cai, Kaishun Wu, ${Ze
 
 
 # 💼 Academic Service
-- [[Invited Talk}](https://qingkeai.online/archives/pgjLLiWn)] Invited by the Qingke Community to present research on inference optimization for diffusion models.
+- [[Invited Talk](https://qingkeai.online/archives/pgjLLiWn)] Invited by the Qingke Community to present research on inference optimization for diffusion models.
 
