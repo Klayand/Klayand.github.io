@@ -306,6 +306,15 @@ h3 {
   color: var(--accent);
 }
 
+.publication h3 a {
+  border-bottom: 1px solid transparent;
+}
+
+.publication h3 a:hover {
+  border-bottom-color: currentColor;
+  color: var(--accent);
+}
+
 .paper-copy {
   min-width: 0;
 }
@@ -315,8 +324,17 @@ h3 {
   background: var(--soft);
   border: 1px solid var(--line);
   border-radius: 7px;
+  cursor: zoom-in;
   margin: 0;
   overflow: hidden;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.paper-preview:hover,
+.paper-preview:focus-visible {
+  border-color: #b7cbc7;
+  outline: none;
+  transform: translateY(-1px);
 }
 
 .paper-preview img {
@@ -328,12 +346,19 @@ h3 {
 .paper-preview.is-missing {
   align-items: center;
   color: var(--muted);
+  cursor: default;
   display: flex;
   font-size: 0.85rem;
   justify-content: center;
   min-height: 180px;
   padding: 1rem;
   text-align: center;
+}
+
+.paper-preview.is-missing:hover,
+.paper-preview.is-missing:focus-visible {
+  border-color: var(--line);
+  transform: none;
 }
 
 .publication p {
@@ -390,6 +415,51 @@ h3 {
 
 .footer p {
   margin: 0;
+}
+
+.is-lightbox-open {
+  overflow: hidden;
+}
+
+.lightbox {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.94);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 3.5rem 1.5rem 1.5rem;
+  position: fixed;
+  z-index: 100;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox img {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.14);
+  max-height: calc(100vh - 5.5rem);
+  max-width: min(760px, 100%);
+  object-fit: contain;
+}
+
+.lightbox-close {
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 650;
+  min-height: 38px;
+  padding: 0.45rem 0.75rem;
+  position: fixed;
+  right: 1.5rem;
+  top: 1.2rem;
 }
 
 @media (max-width: 820px) {
