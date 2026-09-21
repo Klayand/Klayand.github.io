@@ -9,6 +9,7 @@ The site is a lightweight static page for research updates, selected publication
 - `index.html` contains the page content, metadata, publication entries, and lightbox markup.
 - `styles.css` defines the responsive visual system.
 - `images/` stores the profile image, favicons, web manifest, and paper preview images.
+- `images/projects/` contains the locally hosted Qwen brand mark.
 - `robots.txt` and `sitemap.xml` provide basic search engine metadata.
 - `.nojekyll` tells GitHub Pages to publish the static files as-is.
 
@@ -31,6 +32,10 @@ Most updates only require editing `index.html`:
 - List model releases and official resources in the `industry` section. Use
   "Series GitHub" for a shared repository, and only add version-specific links
   after confirming the official destination.
+- Industry projects use a responsive two-column gallery with consistent brand
+  covers, concise contribution summaries, and official resource links. Keep
+  case studies and paper figures out of this section. The cover is decorative;
+  the accessible project name and links are in the heading and body below it.
 - Add publication entries in the `publications` section.
 - Update roles, service, and contact links in their corresponding sections.
 
@@ -58,6 +63,17 @@ Last checked: 22 September 2026.
 
 Citation counts are a dated snapshot, not a live counter. Update the total,
 Golden Noise highlight and publication entry, and verification date together.
+
+## Project Covers
+
+The covers are a homepage presentation, not official release artwork or model
+outputs. Model names and version numbers are editable HTML. The Qwen mark is
+from the [official Qwen site](https://qwen.ai/home), downloaded from its
+[brand asset](https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png)
+and stored unchanged as `images/projects/qwen.png`.
+
+Qwen Image 3.1 is marked as continuing work, not a verified public release.
+Do not infer release availability from its inclusion in the project gallery.
 
 ## Deployment
 
