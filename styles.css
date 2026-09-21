@@ -213,6 +213,12 @@ h3 {
   margin: 0;
 }
 
+.metrics-updated {
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin: 0.65rem 0 0;
+}
+
 .news-strip {
   border-bottom: 1px solid var(--line);
   border-top: 1px solid var(--line);
@@ -247,6 +253,7 @@ h3 {
 .section {
   border-top: 1px solid var(--line);
   padding: 4.2rem 0;
+  scroll-margin-top: 100px;
 }
 
 .two-column {
@@ -267,6 +274,75 @@ h3 {
   color: var(--accent);
   font-size: 0.93rem;
   font-weight: 650;
+}
+
+.industry-intro {
+  color: var(--muted);
+  max-width: 850px;
+  margin-bottom: 1.75rem;
+}
+
+.project-list {
+  border-top: 1px solid var(--line);
+}
+
+.industry-project {
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 1rem 2rem;
+  grid-template-columns: 260px minmax(0, 1fr);
+  padding: 1.5rem 0;
+  scroll-margin-top: 120px;
+}
+
+.project-heading,
+.project-copy {
+  min-width: 0;
+}
+
+.project-meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin-bottom: 0.35rem;
+}
+
+.project-heading h3 {
+  font-size: 1.1rem;
+}
+
+.project-copy p {
+  font-size: 0.94rem;
+  margin-bottom: 0.55rem;
+}
+
+.project-copy .project-availability {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  margin-top: 0.65rem;
+}
+
+.project-links a {
+  color: var(--accent);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #ccdcd8;
+  text-underline-offset: 4px;
+}
+
+.project-links a:hover {
+  text-decoration-color: currentColor;
+}
+
+.project-links a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .research-grid,
@@ -481,6 +557,7 @@ h3 {
   .news-strip,
   .research-grid,
   .compact-grid,
+  .industry-project,
   .publication {
     grid-template-columns: 1fr;
   }
