@@ -9,7 +9,7 @@ The site is a lightweight static page for research updates, selected publication
 - `index.html` contains the page content, metadata, publication entries, and lightbox markup.
 - `styles.css` defines the responsive visual system.
 - `images/` stores the profile image, favicons, web manifest, and paper preview images.
-- `images/projects/` contains the locally hosted Qwen brand mark.
+- `images/projects/` contains locally hosted official Blog covers and the Qwen brand mark.
 - `robots.txt` and `sitemap.xml` provide basic search engine metadata.
 - `.nojekyll` tells GitHub Pages to publish the static files as-is.
 
@@ -32,10 +32,12 @@ Most updates only require editing `index.html`:
 - List model releases and official resources in the `industry` section. Use
   "Series GitHub" for a shared repository, and only add version-specific links
   after confirming the official destination.
-- Industry projects use a responsive two-column gallery with consistent brand
-  covers, concise contribution summaries, and official resource links. Keep
-  case studies and paper figures out of this section. The cover is decorative;
-  the accessible project name and links are in the heading and body below it.
+- Industry projects use a responsive two-column gallery with official Blog
+  covers, concise contribution summaries, and resource links. Cover images link
+  directly to the corresponding Blog. Preserve complete cover artwork with
+  `object-fit: contain`; do not overlay more titles or substitute paper cases.
+- When an official cover cannot be verified, retain a clearly differentiated
+  HTML brand cover instead of borrowing artwork from another model version.
 - Add publication entries in the `publications` section.
 - Update roles, service, and contact links in their corresponding sections.
 
@@ -66,9 +68,21 @@ Golden Noise highlight and publication entry, and verification date together.
 
 ## Project Covers
 
-The covers are a homepage presentation, not official release artwork or model
-outputs. Model names and version numbers are editable HTML. The Qwen mark is
-from the [official Qwen site](https://qwen.ai/home), downloaded from its
+The following are the corresponding official Blog release/share covers. They
+are resized to at most 1200px and WebP-compressed locally; no content is cropped
+or generated, and their original artwork is preserved.
+
+| Cover | Official source | Original image |
+| --- | --- | --- |
+| `qwen-21-blog.webp` | [Qwen Image 2.1 Blog](https://qwen.ai/blog?id=qwen-image-2.1), also [published by Alibaba Cloud](https://www.alibabacloud.com/blog/qwen-image-2-1-compact-efficient-and-unified-image-creation_603586) | [Release banner](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen-Image/image2.1/banner_en.png) |
+| `qwen-30-blog.webp` | [Qwen Image 3.0 Blog](https://qwen.ai/blog?id=qwen-image-3.0), also [published by Alibaba Cloud](https://www.alibabacloud.com/blog/qwen-image-3-0-rich-content-authentic-details-deep-knowledge_603385) | [Release banner](https://yqintl.alicdn.com/a1f75ad93428d26aab1b1eecb1f328c26191a05b.png) |
+| `qwen-20-blog.webp` | [Qwen Image 2.0 Blog](https://qwen.ai/blog?id=qwen-image-2.0), also [published by Alibaba Cloud](https://www.alibabacloud.com/blog/qwen-image-2-0-professional-infographics-exquisite-photorealism_602880) | [Release banner](https://yqintl.alicdn.com/2893b60c7304fe38b7082af8f9b89b1ac9d14447.png) |
+| `qwen-bench-blog.webp` | [Qwen-Image-Bench Blog](https://www.alibabacloud.com/blog/qwen-image-bench-beyond-basic-generation-%E2%80%94-evaluating-t2i-models-in-complex-scenarios_603335) | [Blog share cover (og:image)](https://yqintl.alicdn.com/ac13008efe163afffa1115967d7b85ad91d16846.jpeg) |
+
+Qwen Image 3.1 and Flash/Turbo retain HTML brand covers because corresponding
+official Blog covers have not been verified. These are homepage presentations,
+not official release artwork. The Qwen mark is from the
+[official Qwen site](https://qwen.ai/home), downloaded from its
 [brand asset](https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png)
 and stored unchanged as `images/projects/qwen.png`.
 
