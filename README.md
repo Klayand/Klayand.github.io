@@ -45,10 +45,12 @@ Place new paper preview images under `images/papers/` and reference them with re
 
 ## Content Verification
 
-Last checked: 22 September 2026.
+Citation snapshot updated: 20 October 2026, using figures supplied by the profile
+owner. Direct Google Scholar access required human verification.
+Other content last checked: 22 September 2026.
 
 - [Google Scholar](https://scholar.google.com/citations?user=u6TjscAAAAAJ&hl=en&pagesize=100):
-  375 total citations, h-index 8, and 116 citations for Golden Noise.
+  439 total citations, h-index 10, i10-index 11, and 121 citations for Golden Noise.
   The profile lists Qwen-Image-Bench at EMNLP 2026.
 - [Qwen Image 2.1](https://github.com/QwenLM/Qwen-Image-2.1): the official README
   confirms the 20 September release and links to weights, blog, and demo.
@@ -64,7 +66,8 @@ Last checked: 22 September 2026.
   release links could not yet be verified; do not infer links or release specs.
 
 Citation counts are a dated snapshot, not a live counter. Update the total,
-Golden Noise highlight and publication entry, and verification date together.
+h-index, i10-index, Golden Noise highlight and publication entry, and snapshot
+date together.
 
 ## Project Covers
 
