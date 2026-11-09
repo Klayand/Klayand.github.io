@@ -45,13 +45,32 @@ Place new paper preview images under `images/papers/` and reference them with re
 
 ## Content Verification
 
-Citation snapshot updated: 20 October 2026, using figures supplied by the profile
-owner. Direct Google Scholar access required human verification.
-Other content last checked: 22 September 2026.
+Citation snapshot and publication metadata updated: 9 November 2026. The public
+Google Scholar profile was fetched directly; titles and author lists below were
+cross-checked against arXiv and ACL Anthology. Existing model release information
+and cover sources retain their 22 September 2026 verification date.
 
 - [Google Scholar](https://scholar.google.com/citations?user=u6TjscAAAAAJ&hl=en&pagesize=100):
-  439 total citations, h-index 10, i10-index 11, and 121 citations for Golden Noise.
-  The profile lists Qwen-Image-Bench at EMNLP 2026.
+  462 total citations, h-index 11, i10-index 12, and 123 citations for Golden Noise.
+  The profile contains 27 entries, including preprints and technical reports;
+  this is not a count of first-author or accepted conference papers.
+- New entries: [Qwen-Image-PE](https://arxiv.org/abs/2610.33472),
+  [Golden Anchor](https://arxiv.org/abs/2610.13217), and
+  [Qwen-Image-Layered 1.5](https://aclanthology.org/2026.emnlp-main.2409/).
+  Layered 1.5 is an EMNLP 2026 paper; PE and Golden Anchor are preprints.
+- [PISA](https://arxiv.org/abs/2602.01077): v4 states acceptance at NeurIPS 2026.
+- [D2C](https://arxiv.org/abs/2507.05914): uses the CVPR 2026 camera-ready title
+  and author list. The method selects training examples and augments their
+  conditioning; it does not synthesize a replacement dataset.
+- [Golden Noise](https://arxiv.org/abs/2411.09502),
+  [AMD](https://arxiv.org/abs/2602.07345),
+  [RF-Sampling](https://arxiv.org/abs/2603.06165),
+  [MGT](https://arxiv.org/abs/2411.10781), and
+  [Zigzag](https://arxiv.org/abs/2412.10891): public titles and author lists
+  aligned with the linked versions. Existing user-provided under-review statuses
+  are retained, not upgraded to acceptances.
+- Fuguang AI experience is scoped to video data pipelines per the author's
+  clarification. End-to-end model-development contributions refer to Qwen Image.
 - [Qwen Image 2.1](https://github.com/QwenLM/Qwen-Image-2.1): the official README
   confirms the 20 September release and links to weights, blog, and demo.
 - [Qwen Image 3.0 blog](https://qwen.ai/blog?id=qwen-image-3.0) and

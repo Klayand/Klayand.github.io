@@ -60,29 +60,29 @@
           <dl class="metrics">
             <div>
               <dt><a href="https://scholar.google.com/citations?user=u6TjscAAAAAJ">Scholar citations</a></dt>
-              <dd>439</dd>
+              <dd>462</dd>
             </div>
             <div>
               <dt>Publications</dt>
-              <dd>20+</dd>
+              <dd>25+</dd>
             </div>
             <div>
               <dt>h-index</dt>
-              <dd>10</dd>
+              <dd>11</dd>
             </div>
             <div>
               <dt>i10-index</dt>
-              <dd>11</dd>
+              <dd>12</dd>
             </div>
           </dl>
-          <p class="metrics-updated">Google Scholar &middot; <time datetime="2026-10-20">20 Oct 2026</time></p>
+          <p class="metrics-updated">Google Scholar &middot; <time datetime="2026-11-09">9 Nov 2026</time></p>
         </aside>
       </section>
 
       <section class="news-strip" aria-label="Recent highlights">
         <article>
-          <span>September 2026</span>
-          <p>New project updates: <a class="text-link" href="#qwen-image-21">Qwen Image 2.1</a> and <a class="text-link" href="#qwen-image-31">Qwen Image 3.1</a>.</p>
+          <span>NeurIPS &amp; EMNLP 2026</span>
+          <p>PISA accepted at NeurIPS; Qwen-Image-Bench and Qwen-Image-Layered 1.5 published at EMNLP.</p>
         </article>
         <article>
           <span>ICML 2026</span>
@@ -90,7 +90,7 @@
         </article>
         <article>
           <span>ICCV 2025</span>
-          <p>Golden Noise accepted at ICCV and cited 121 times on Google Scholar.</p>
+          <p>Golden Noise accepted at ICCV and cited 123 times on Google Scholar.</p>
         </article>
       </section>
 
@@ -255,6 +255,42 @@
 
         <div class="publication-list">
           <article class="publication">
+            <figure class="paper-preview" aria-label="PDF first page for Qwen Image PE">
+              <img src="images/papers/qwen-image-pe.jpg" alt="First page of Qwen-Image-PE paper" loading="lazy">
+            </figure>
+            <div class="paper-copy">
+              <div class="pub-meta"><span>arXiv 2026</span><span>Prompt enhancement</span></div>
+              <h3><a href="https://arxiv.org/abs/2610.33472" target="_blank" rel="noopener">Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement</a></h3>
+              <p class="authors">Qwen Team, including <strong>Zikai Zhou</strong>.</p>
+              <p class="summary">Learns to turn underspecified requests into detailed visual designs through caption-based reverse distillation and groupwise design rewards, improving composition, lighting, and image quality across text-to-image backbones.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <figure class="paper-preview" aria-label="PDF first page for Qwen Image Layered 1.5">
+              <img src="images/papers/qwen-layered-15.jpg" alt="First page of Qwen-Image-Layered 1.5 paper" loading="lazy">
+            </figure>
+            <div class="paper-copy">
+              <div class="pub-meta"><span>EMNLP 2026</span><span>Transparency-aware generation</span></div>
+              <h3><a href="https://aclanthology.org/2026.emnlp-main.2409/" target="_blank" rel="noopener">Qwen-Image-Layered 1.5: Unified Image Generation and Editing with Native Transparency Awareness</a></h3>
+              <p class="authors">Qwen Team, including <strong>Zikai Zhou</strong>.</p>
+              <p class="summary">Jointly models visual appearance and transparency in a unified generation and editing model, enabling zero-shot transparent-image editing and introducing TransEdit-Bench to evaluate this capability.</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <figure class="paper-preview" aria-label="PDF first page for Golden Anchor">
+              <img src="images/papers/golden-anchor.jpg" alt="First page of Golden Anchor for Video Generation" loading="lazy">
+            </figure>
+            <div class="paper-copy">
+              <div class="pub-meta"><span>arXiv 2026</span><span>Feedback-driven generation</span></div>
+              <h3><a href="https://arxiv.org/abs/2610.13217" target="_blank" rel="noopener">Golden Anchor for Video Generation</a></h3>
+              <p class="authors">Jinyuan Xu, Shitong Shao, Lichen Bai, <strong>Zikai Zhou</strong>, Guoxi Huang, Nantheera Anantrasirichai, Zeke Xie.</p>
+              <p class="summary">Uses downstream video feedback to learn better anchor images for image-to-video generation, converting video rewards into preferences for fine-tuning the text-to-image generator.</p>
+            </div>
+          </article>
+
+          <article class="publication">
             <figure class="paper-preview" aria-label="PDF first page for Qwen Image 2.0 RL">
               <img src="images/papers/qwen-image-rl.jpg" alt="First page of Qwen-Image-2.0-RL Technical Report">
             </figure>
@@ -345,8 +381,8 @@
             <div class="paper-copy">
               <div class="pub-meta"><span>ICML 2026</span><span>Few-step generation</span></div>
               <h3><a href="https://arxiv.org/abs/2602.07345" target="_blank" rel="noopener">Optimizing Few-Step Generation with Adaptive Matching Distillation</a></h3>
-              <p class="authors">Lichen Bai*, <strong>Zikai Zhou*</strong>, Wenliang Zhong, Shitong Shao, Shuo Yang, Shuo Chen, Bojun Cheng, Zeke Xie.</p>
-              <p class="summary">Studies how to distill generation trajectories into a small number of sampling steps through adaptive matching, targeting fast inference without sacrificing image quality.</p>
+              <p class="authors">Lichen Bai*, <strong>Zikai Zhou*</strong>, Shitong Shao, Wenliang Zhong, Shuo Yang, Shuo Chen, Bojun Chen, Zeke Xie.</p>
+              <p class="summary">Stabilizes distribution matching distillation by detecting unreliable teacher-guidance regions and adaptively correcting optimization signals, improving few-step generation quality and robustness.</p>
             </div>
           </article>
 
@@ -379,10 +415,10 @@
               <img src="images/papers/pisa.jpg" alt="First page of PISA paper">
             </figure>
             <div class="paper-copy">
-              <div class="pub-meta"><span>arXiv 2026</span><span>Efficient DiT</span></div>
+              <div class="pub-meta"><span>NeurIPS 2026</span><span>Efficient DiT</span></div>
               <h3><a href="https://arxiv.org/abs/2602.01077" target="_blank" rel="noopener">PISA: Piecewise Sparse Attention Is Wiser for Efficient Diffusion Transformers</a></h3>
-              <p class="authors">Haopeng Li, Shitong Shao, Wenliang Zhong, <strong>Zikai Zhou</strong>, Lichen Bai, Haoyi Xiong, Zeke Xie.</p>
-              <p class="summary">Proposes piecewise sparse attention for diffusion transformers, aiming to retain global generation quality while spending attention only where it matters.</p>
+              <p class="authors">Haopeng Li, Shitong Shao, Wenliang Zhong, <strong>Zikai Zhou</strong>, Lichen Bai, Hui Xiong, Zeke Xie.</p>
+              <p class="summary">Computes critical attention blocks exactly and approximates the remainder with block-wise Taylor expansion, accelerating diffusion transformers without discarding non-critical context.</p>
             </div>
           </article>
 
@@ -412,13 +448,13 @@
 
           <article class="publication">
             <figure class="paper-preview" aria-label="PDF first page for diffusion dataset condensation">
-              <img src="images/papers/d2c.jpg" alt="First page of Diffusion Dataset Condensation paper">
+              <img src="images/papers/d2c.jpg" alt="First page of Accelerating Diffusion Model Training under Minimal Budgets">
             </figure>
             <div class="paper-copy">
               <div class="pub-meta"><span>CVPR 2026</span><span>Dataset condensation</span></div>
-              <h3><a href="https://arxiv.org/abs/2507.05914" target="_blank" rel="noopener">Diffusion Dataset Condensation: Training Your Diffusion Model Faster with Less Data</a></h3>
-              <p class="authors">Rui Huang, Shitong Shao, <strong>Zikai Zhou</strong>, Tian Ye, Lichen Bai, Shuo Yang, Zeke Xie.</p>
-              <p class="summary">Condenses diffusion training data so that models can learn efficiently from smaller, more informative synthetic subsets.</p>
+              <h3><a href="https://arxiv.org/abs/2507.05914" target="_blank" rel="noopener">Accelerating Diffusion Model Training under Minimal Budgets: A Condensation-Based Perspective</a></h3>
+              <p class="authors">Rui Huang, Shitong Shao, <strong>Zikai Zhou</strong>, Pukun Zhao, Hangyu Guo, Tian Ye, Lichen Bai, Shuo Yang, Zeke Xie.</p>
+              <p class="summary">Selects a compact, informative training subset and attaches richer semantic and visual conditioning, reducing the data and compute needed to train diffusion models.</p>
             </div>
           </article>
 
@@ -427,9 +463,9 @@
               <img src="images/papers/golden-noise.jpg" alt="First page of Golden Noise paper">
             </figure>
             <div class="paper-copy">
-              <div class="pub-meta"><span>ICCV 2025</span><span>121 citations</span></div>
+              <div class="pub-meta"><span>ICCV 2025</span><span>123 citations</span></div>
               <h3><a href="https://arxiv.org/abs/2411.09502" target="_blank" rel="noopener">Golden Noise for Diffusion Models: A Learning Framework</a></h3>
-              <p class="authors"><strong>Zikai Zhou</strong>, Shitong Shao, Lichen Bai, Zhiqiang Xu, Bo Han, Zeke Xie.</p>
+              <p class="authors"><strong>Zikai Zhou</strong>, Shitong Shao, Lichen Bai, Shufei Zhang, Zhiqiang Xu, Bo Han, Zeke Xie.</p>
               <p class="summary">Introduces a learning framework for finding stronger initial noise patterns, improving diffusion generation by optimizing the starting point of the sampling process.</p>
             </div>
           </article>
@@ -452,7 +488,7 @@
             </figure>
             <div class="paper-copy">
               <div class="pub-meta"><span>ICLR 2025</span><span>Sampling</span></div>
-              <h3><a href="https://arxiv.org/abs/2412.10891" target="_blank" rel="noopener">Zigzag Diffusion Sampling: The Path to Success Is Zigzag</a></h3>
+              <h3><a href="https://arxiv.org/abs/2412.10891" target="_blank" rel="noopener">Zigzag Diffusion Sampling: Diffusion Models Can Self-Improve via Self-Reflection</a></h3>
               <p class="authors">Lichen Bai, Shitong Shao, <strong>Zikai Zhou</strong>, Zipeng Qi, Zhiqiang Xu, Haoyi Xiong, Zeke Xie.</p>
               <p class="summary">Explores a non-monotonic sampling path where diffusion models can self-reflect during generation, improving sample quality through zigzag refinement.</p>
             </div>
@@ -464,8 +500,8 @@
             </figure>
             <div class="paper-copy">
               <div class="pub-meta"><span>arXiv 2024 / IJCV under review</span><span>Masked generative transformer</span></div>
-              <h3><a href="https://arxiv.org/abs/2411.10781" target="_blank" rel="noopener">Exploring the Design Space for Inference Enhancement and Acceleration of Masked Generative Transformer</a></h3>
-              <p class="authors">Shitong Shao*, <strong>Zikai Zhou*</strong>, Tian Ye, Lichen Bai, Zhiqiang Xu, Shuo Yang, Bo Han, Zeke Xie.</p>
+              <h3><a href="https://arxiv.org/abs/2411.10781" target="_blank" rel="noopener">Bag of Design Choices for Inference of High-Resolution Masked Generative Transformer</a></h3>
+              <p class="authors">Shitong Shao*, <strong>Zikai Zhou*</strong>, Tian Ye, Lichen Bai, Zhiqiang Xu, Zeke Xie.</p>
               <p class="summary">Systematically studies inference design choices for high-resolution masked generative transformers, identifying practical levers for quality and speed.</p>
             </div>
           </article>
@@ -477,7 +513,7 @@
             <div class="paper-copy">
               <div class="pub-meta"><span>TPAMI under review</span><span>Flow sampling</span></div>
               <h3><a href="https://arxiv.org/abs/2603.06165" target="_blank" rel="noopener">Reflective Flow Sampling Enhancement</a></h3>
-              <p class="authors"><strong>Zikai Zhou*</strong>, Muyao Wang*, Shitong Shao, Dian Xie, Lichen Bai, Zeke Xie.</p>
+              <p class="authors"><strong>Zikai Zhou*</strong>, Muyao Wang*, Shitong Shao, Lichen Bai, Haoyi Xiong, Bo Han, Zeke Xie.</p>
               <p class="summary">Extends reflective sampling ideas to flow-based generation, targeting stronger sample quality through intermediate trajectory correction.</p>
             </div>
           </article>
@@ -554,12 +590,12 @@
           <article>
             <time>Mar. 2026 - Present</time>
             <h3>Research Intern, Qwen Image Foundation Model Team, Alibaba Group</h3>
-            <p>Contributing to the Qwen Image 2.0, 2.1, 3.0, 3.1, and Flash / Turbo series. My work spans model development, automated data flywheels, large-scale data pipelines, pre-training evaluation, and few-step distillation.</p>
+            <p>End-to-end contributions to Qwen Image 2.0, 2.1, 3.0, 3.1, and Flash / Turbo: foundation-model iteration, few-step distillation, and data construction. Built automated pre-training evaluation and data flywheels connecting failure diagnosis, targeted data collection, filtering, and model refinement with the Qwen App team.</p>
           </article>
           <article>
             <time>Jun. 2024 - Feb. 2026</time>
             <h3>Algorithm Engineer, Fuguang AI</h3>
-            <p>Led R&amp;D and deployment of T2V, I2V, and V2V models, including data collection, auto-labeling, quality assessment, inference optimization, and prompt-engineering modules.</p>
+            <p>Built data pipelines supporting text-to-video, image-to-video, and video-to-video workflows, focusing on collection, cleaning, auto-labeling, and automated quality assessment.</p>
           </article>
           <article>
             <time>Apr. 2024 - Sep. 2025</time>
@@ -595,7 +631,7 @@
 
     <footer class="footer">
       <p>zzhou440@connect.hkust-gz.edu.cn</p>
-      <p>Last updated <time datetime="2026-10-20">20 October 2026</time></p>
+      <p>Last updated <time datetime="2026-11-09">9 November 2026</time></p>
     </footer>
     <script>
       (() => {
