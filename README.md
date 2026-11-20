@@ -37,7 +37,7 @@ Most updates only require editing `index.html`:
 - List model releases and official resources in the `industry` section. Use
   "Series GitHub" for a shared repository, and only add version-specific links
   after confirming the official destination.
-- Industry projects use a responsive two-column gallery with official Blog
+- Industry projects use a responsive three-column gallery with official Blog
   covers, concise contribution summaries, and resource links. Cover images link
   directly to the corresponding Blog. Preserve complete cover artwork with
   `object-fit: contain`; do not overlay more titles or substitute paper cases.
@@ -59,8 +59,9 @@ Place new paper preview images under `images/papers/` and reference them with re
   compact contact links, and a separate horizontal Scholar snapshot.
 - Added numbered research/experience sections and a responsive three-column
   industry gallery, preserving the official cover artwork in full.
-- Defaulted to eight selected publications; all 27 original entries, authors,
-  statuses, abstracts, and paper links are retained. Added full-text search,
+- Defaulted to nine selected publications with DA-DMD added first; all 27
+  original entries, authors, statuses, abstracts, and paper links are retained.
+  The homepage now has 28 curated publications. Added full-text search,
   peer-reviewed/report filters, counts, and an empty-state reset.
 - Replaced the preview overlay with a native dialog supporting keyboard access,
   Escape dismissal, focus containment/restoration, and backdrop dismissal.
@@ -78,12 +79,18 @@ was fetched directly from both its Chinese and English interfaces; both returned
 the same metrics. Publication titles and author lists were last cross-checked
 against arXiv and ACL Anthology on 9 November 2026. Existing model release
 information and cover sources retain their 22 September 2026 verification date.
+DA-DMD was separately verified against its arXiv abstract and PDF on
+20 November 2026 and added to the selected papers and recent highlights.
 
 - [Google Scholar](https://scholar.google.com/citations?user=u6TjscAAAAAJ&hl=en&pagesize=100):
   481 total citations, h-index 11, i10-index 13, and 124 citations for Golden Noise.
   The full profile contains 28 entries, including preprints and technical reports;
   this is not a count of first-author or accepted conference papers. The homepage
-  retains its 27 curated entries and the conservative 25+ papers/reports label.
+  now contains 28 curated entries and the conservative 25+ papers/reports label.
+- [DA-DMD](https://arxiv.org/abs/2611.11898): submitted 9 November 2026;
+  title and all seven authors verified from arXiv and the PDF. Zikai Zhou is
+  first author, with no equal-contribution marker. Listed as an arXiv preprint,
+  not an accepted conference paper. The preview is the official PDF first page.
 - New entries: [Qwen-Image-PE](https://arxiv.org/abs/2610.33472),
   [Golden Anchor](https://arxiv.org/abs/2610.13217), and
   [Qwen-Image-Layered 1.5](https://aclanthology.org/2026.emnlp-main.2409/).

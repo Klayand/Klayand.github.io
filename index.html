@@ -83,16 +83,16 @@
         <h2 class="kicker" id="news-title">Recent highlights</h2>
         <div class="news-strip">
         <article>
+          <span><time datetime="2026-11-09">Nov 2026</time> &middot; New preprint</span>
+          <p><a href="https://arxiv.org/abs/2611.11898">DA-DMD</a>: disagreement-aware few-step distillation with no added inference cost.</p>
+        </article>
+        <article>
           <span>NeurIPS &amp; EMNLP 2026</span>
           <p><a href="https://arxiv.org/abs/2602.01077">PISA</a> accepted at NeurIPS; <a href="https://arxiv.org/abs/2605.28091">Qwen-Image-Bench</a> and <a href="https://aclanthology.org/2026.emnlp-main.2409/">Layered 1.5</a> published at EMNLP.</p>
         </article>
         <article>
           <span>ICML 2026</span>
           <p>Recognized as an ICML <strong>Gold Reviewer</strong>, Top 25%.</p>
-        </article>
-        <article>
-          <span>ICCV 2025</span>
-          <p><a href="https://arxiv.org/abs/2411.09502">Golden Noise</a> accepted at ICCV. 124 citations as of 20 Nov 2026.</p>
         </article>
         </div>
       </section>
@@ -277,6 +277,18 @@
         <div class="publication-status" hidden><p id="paper-count" role="status" aria-live="polite" aria-atomic="true"></p><span>* Equal contribution</span></div>
 
         <div class="publication-list" id="paper-list">
+          <article class="publication" id="da-dmd" data-selected>
+            <figure class="paper-preview" aria-label="PDF first page for DA-DMD">
+              <img src="images/papers/da-dmd.jpg" alt="First page of Disagreement-Aware Distribution Matching Distillation for Few-Step Diffusion Models" width="928" height="1200" loading="lazy">
+            </figure>
+            <div class="paper-copy">
+              <div class="pub-meta"><span>arXiv 2026</span><span>Few-step distillation</span></div>
+              <h3><a href="https://arxiv.org/abs/2611.11898" target="_blank" rel="noopener">Disagreement-Aware Distribution Matching Distillation for Few-Step Diffusion Models</a></h3>
+              <p class="authors"><strong>Zikai Zhou</strong>, Zhengpeng Xie, Shitong Shao, Lichen Bai, Tianhao Zhang, Bojun Cheng, Zeke Xie.</p>
+              <p class="summary">DA-DMD reuses teacher-fake disagreement already computed during distribution matching distillation to attenuate high-noise updates, improving few-step generation without additional models or inference-time changes.</p>
+            </div>
+          </article>
+
           <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Qwen Image PE">
               <img src="images/papers/qwen-image-pe.jpg" alt="First page of Qwen-Image-PE paper" loading="lazy">
