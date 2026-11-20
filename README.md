@@ -8,7 +8,12 @@ The site is a lightweight static page for research updates, selected publication
 
 - `index.html` contains the page content, metadata, publication entries, and lightbox markup.
 - `styles.css` defines the responsive visual system.
+- `main.js` handles publication filters/search, mobile navigation, active-section
+  links, and the accessible paper-preview dialog. No build step is required.
 - `images/` stores the profile image, favicons, web manifest, and paper preview images.
+- `images/fonts/` self-hosts DM Sans and Newsreader with their SIL Open Font
+  Licenses. `images/icons/` contains Lucide SVGs and its ISC license. The site
+  does not request third-party fonts or scripts at runtime.
 - `images/projects/` contains locally hosted official Blog covers and the Qwen brand mark.
 - `robots.txt` and `sitemap.xml` provide basic search engine metadata.
 - `.nojekyll` tells GitHub Pages to publish the static files as-is.
@@ -27,7 +32,7 @@ Then visit `http://localhost:8000`.
 
 Most updates only require editing `index.html`:
 
-- Add recent highlights in the `news-strip` section.
+- Add recent highlights in the `news-section` / `news-strip` section.
 - Add or revise research areas in the `research` section.
 - List model releases and official resources in the `industry` section. Use
   "Series GitHub" for a shared repository, and only add version-specific links
@@ -38,22 +43,47 @@ Most updates only require editing `index.html`:
   `object-fit: contain`; do not overlay more titles or substitute paper cases.
 - When an official cover cannot be verified, retain a clearly differentiated
   HTML brand cover instead of borrowing artwork from another model version.
-- Add publication entries in the `publications` section.
+- Add publication entries in the `publications` section. Add `data-selected`
+  to an article to include it in the default selected view. All work remains
+  available from the filter controls and searchable by title, author, venue,
+  and summary. Search starts across the full bibliography.
+- Keep venue/status labels accurate: `main.js` classifies recognized accepted
+  venues as peer-reviewed and keeps under-review entries with reports/preprints.
 - Update roles, service, and contact links in their corresponding sections.
 
 Place new paper preview images under `images/papers/` and reference them with relative paths.
 
+## Presentation Update - 20 November 2026
+
+- Reworked the profile masthead with editorial typography, an unframed portrait,
+  compact contact links, and a separate horizontal Scholar snapshot.
+- Added numbered research/experience sections and a responsive three-column
+  industry gallery, preserving the official cover artwork in full.
+- Defaulted to eight selected publications; all 27 original entries, authors,
+  statuses, abstracts, and paper links are retained. Added full-text search,
+  peer-reviewed/report filters, counts, and an empty-state reset.
+- Replaced the preview overlay with a native dialog supporting keyboard access,
+  Escape dismissal, focus containment/restoration, and backdrop dismissal.
+- Added mobile navigation, section highlighting, reduced-motion handling, and
+  a no-JavaScript fallback that exposes the complete bibliography/navigation.
+- Validated with Playwright/Chrome at 320, 375, 390, 600, 768, 1024, 1440, and
+  1920px: no horizontal overflow or broken visible image assets. Checked filters,
+  search/reset, preview focus, and mobile navigation. Citation figures were
+  refreshed against Google Scholar on 20 November 2026.
+
 ## Content Verification
 
-Citation snapshot and publication metadata updated: 9 November 2026. The public
-Google Scholar profile was fetched directly; titles and author lists below were
-cross-checked against arXiv and ACL Anthology. Existing model release information
-and cover sources retain their 22 September 2026 verification date.
+Citation snapshot updated: 20 November 2026. The public Google Scholar profile
+was fetched directly from both its Chinese and English interfaces; both returned
+the same metrics. Publication titles and author lists were last cross-checked
+against arXiv and ACL Anthology on 9 November 2026. Existing model release
+information and cover sources retain their 22 September 2026 verification date.
 
 - [Google Scholar](https://scholar.google.com/citations?user=u6TjscAAAAAJ&hl=en&pagesize=100):
-  462 total citations, h-index 11, i10-index 12, and 123 citations for Golden Noise.
-  The profile contains 27 entries, including preprints and technical reports;
-  this is not a count of first-author or accepted conference papers.
+  481 total citations, h-index 11, i10-index 13, and 124 citations for Golden Noise.
+  The full profile contains 28 entries, including preprints and technical reports;
+  this is not a count of first-author or accepted conference papers. The homepage
+  retains its 27 curated entries and the conservative 25+ papers/reports label.
 - New entries: [Qwen-Image-PE](https://arxiv.org/abs/2610.33472),
   [Golden Anchor](https://arxiv.org/abs/2610.13217), and
   [Qwen-Image-Layered 1.5](https://aclanthology.org/2026.emnlp-main.2409/).

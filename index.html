@@ -21,12 +21,21 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="manifest" href="images/site.webmanifest">
+    <meta name="theme-color" content="#fafbf9">
+    <link rel="preload" href="images/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="images/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
   </head>
-  <body>
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Zikai Zhou homepage">Zikai Zhou</a>
-      <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Zikai Zhou homepage">Zikai Zhou<span class="brand-note">Research &amp; practice</span></a>
+      <button class="menu-toggle icon-button" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation" title="Open navigation" hidden>
+        <img class="icon menu-icon" src="images/icons/menu.svg" alt="" width="20" height="20">
+        <img class="icon close-icon" src="images/icons/x.svg" alt="" width="20" height="20">
+      </button>
+      <nav class="nav" id="main-nav" aria-label="Main navigation">
         <a href="#research">Research</a>
         <a href="#industry">Industry</a>
         <a href="#publications">Publications</a>
@@ -35,85 +44,84 @@
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero">
+    <main id="main-content">
+      <section class="hero" aria-labelledby="profile-title">
         <div class="hero-copy">
-          <p class="eyebrow">MPhil Student @ HKUST(GZ)</p>
-          <h1>Zikai Zhou</h1>
-          <p class="lead">
-            I am an MPhil researcher at HKUST(GZ), working on generative AI,
-            efficient sampling, and visual foundation models. My research
-            focuses on diffusion and flow-matching sampling, inference
-            acceleration, and data-centric model improvement. At Alibaba's Qwen
-            Image team, I contribute to image foundation models end to end,
-            from data and evaluation to training and few-step distillation.
+          <p class="eyebrow">Generative AI &amp; visual foundation models</p>
+          <h1 id="profile-title">Zikai Zhou<span class="name-period">.</span></h1>
+          <p class="hero-affiliation">MPhil, HKUST(GZ) <span aria-hidden="true">/</span> Qwen Image, Alibaba</p>
+          <p class="lead">Making visual generation faster,<br class="desktop-break"> more reliable, and easier to improve.</p>
+          <p class="bio">
+            I research diffusion and flow matching, efficient sampling, and
+            data-centric generation. At Alibaba's Qwen Image team, I work across
+            data, evaluation, foundation-model training, and few-step distillation.
           </p>
           <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="mailto:zzhou440@connect.hkust-gz.edu.cn">Email</a>
-            <a class="button" href="https://scholar.google.com/citations?user=u6TjscAAAAAJ">Google Scholar</a>
-            <a class="button" href="https://github.com/Klayand">GitHub</a>
+            <a class="contact-link" href="mailto:zzhou440@connect.hkust-gz.edu.cn"><img class="icon" src="images/icons/mail.svg" alt="" width="18" height="18">Email</a>
+            <a href="https://scholar.google.com/citations?user=u6TjscAAAAAJ"><img class="icon" src="images/icons/graduation-cap.svg" alt="" width="18" height="18">Google Scholar<img class="icon external-icon" src="images/icons/arrow-up-right.svg" alt="" width="14" height="14"></a>
+            <a href="https://github.com/Klayand"><img class="icon" src="images/icons/github.svg" alt="" width="18" height="18">GitHub<img class="icon external-icon" src="images/icons/arrow-up-right.svg" alt="" width="14" height="14"></a>
           </div>
         </div>
 
-        <aside class="portrait-panel" aria-label="Profile summary">
-          <img src="images/profile.jpg" alt="Zikai Zhou walking in a Beijing hutong">
-          <dl class="metrics">
-            <div>
-              <dt><a href="https://scholar.google.com/citations?user=u6TjscAAAAAJ">Scholar citations</a></dt>
-              <dd>462</dd>
-            </div>
-            <div>
-              <dt>Publications</dt>
-              <dd>25+</dd>
-            </div>
-            <div>
-              <dt>h-index</dt>
-              <dd>11</dd>
-            </div>
-            <div>
-              <dt>i10-index</dt>
-              <dd>12</dd>
-            </div>
-          </dl>
-          <p class="metrics-updated">Google Scholar &middot; <time datetime="2026-11-09">9 Nov 2026</time></p>
-        </aside>
+        <figure class="portrait-panel">
+          <img src="images/profile.jpg" alt="Zikai Zhou walking in a Beijing hutong" width="810" height="1080" fetchpriority="high">
+          <figcaption>Beyond the screen. Beijing, China.</figcaption>
+        </figure>
       </section>
 
-      <section class="news-strip" aria-label="Recent highlights">
+      <div class="scholar-band" aria-label="Academic profile">
+        <div class="scholar-label"><span class="kicker">In numbers</span><a href="https://scholar.google.com/citations?user=u6TjscAAAAAJ">Google Scholar<img class="icon" src="images/icons/arrow-up-right.svg" alt="" width="15" height="15"></a><span class="metrics-updated">Snapshot: <time datetime="2026-11-20">20 Nov 2026</time></span></div>
+        <dl class="metrics">
+          <div><dt>Citations</dt><dd>481</dd></div>
+          <div><dt>Papers &amp; reports</dt><dd>25<span>+</span></dd></div>
+          <div><dt>h-index</dt><dd>11</dd></div>
+          <div><dt>i10-index</dt><dd>13</dd></div>
+        </dl>
+      </div>
+
+      <section class="news-section" aria-labelledby="news-title">
+        <h2 class="kicker" id="news-title">Recent highlights</h2>
+        <div class="news-strip">
         <article>
           <span>NeurIPS &amp; EMNLP 2026</span>
-          <p>PISA accepted at NeurIPS; Qwen-Image-Bench and Qwen-Image-Layered 1.5 published at EMNLP.</p>
+          <p><a href="https://arxiv.org/abs/2602.01077">PISA</a> accepted at NeurIPS; <a href="https://arxiv.org/abs/2605.28091">Qwen-Image-Bench</a> and <a href="https://aclanthology.org/2026.emnlp-main.2409/">Layered 1.5</a> published at EMNLP.</p>
         </article>
         <article>
           <span>ICML 2026</span>
-          <p>Gold Reviewer, Top 25%.</p>
+          <p>Recognized as an ICML <strong>Gold Reviewer</strong>, Top 25%.</p>
         </article>
         <article>
           <span>ICCV 2025</span>
-          <p>Golden Noise accepted at ICCV and cited 123 times on Google Scholar.</p>
+          <p><a href="https://arxiv.org/abs/2411.09502">Golden Noise</a> accepted at ICCV. 124 citations as of 20 Nov 2026.</p>
         </article>
+        </div>
       </section>
 
       <section id="research" class="section two-column">
         <div class="section-title">
-          <p class="kicker">Research</p>
-          <h2>Efficient generation from algorithms to data flywheels.</h2>
+          <p class="kicker"><span class="section-number">01</span> Research</p>
+          <h2>Better generation.<br>At every step.</h2>
+          <p class="section-intro">From the sampling trajectory to the data that shapes the model.</p>
         </div>
         <div class="research-grid">
           <article>
-            <h3>Sampling and acceleration</h3>
+            <span class="research-index">01 / Algorithms</span>
+            <h3>Sampling &amp; acceleration</h3>
             <p>Designing faster and more reliable sampling procedures for diffusion, flow matching, and masked generative transformers.</p>
           </article>
           <article>
+            <span class="research-index">02 / Data</span>
             <h3>Data-centric generation</h3>
             <p>Building dataset condensation, filtering, distillation, and evaluation pipelines that close the loop between user signals and model training.</p>
           </article>
           <article>
+            <span class="research-index">03 / Models</span>
             <h3>Image foundation models</h3>
             <p>Contributing to the Qwen Image series across model development, data construction, evaluation, and few-step distillation for generation and editing.</p>
           </article>
           <article>
-            <h3>Evaluation pitfalls</h3>
+            <span class="research-index">04 / Evaluation</span>
+            <h3>Evaluation &amp; feedback</h3>
             <p>Studying where generative evaluation breaks, including guidance, benchmark design, and automated pre-training feedback.</p>
           </article>
         </div>
@@ -122,10 +130,10 @@
       <section id="industry" class="section" aria-labelledby="industry-title">
         <div class="section-heading">
           <div>
-            <p class="kicker">Industry</p>
+            <p class="kicker"><span class="section-number">02</span> Industry</p>
             <h2 id="industry-title">Qwen Image projects</h2>
           </div>
-          <a class="text-link" href="https://github.com/QwenLM">Qwen on GitHub</a>
+          <a class="text-link" href="https://github.com/QwenLM">Qwen on GitHub<img class="icon" src="images/icons/arrow-up-right.svg" alt="" width="17" height="17"></a>
         </div>
         <p class="industry-intro">End-to-end contributions to the Qwen Image series, from data and evaluation to foundation-model training and few-step distillation.</p>
 
@@ -247,14 +255,29 @@
       <section id="publications" class="section">
         <div class="section-heading">
           <div>
-            <p class="kicker">Publications</p>
-            <h2>Research papers and technical reports</h2>
+            <p class="kicker"><span class="section-number">03</span> Publications</p>
+            <h2>Papers &amp; technical reports</h2>
           </div>
-          <a class="text-link" href="https://scholar.google.com/citations?user=u6TjscAAAAAJ">Full publication list</a>
+          <a class="text-link" href="https://scholar.google.com/citations?user=u6TjscAAAAAJ">Google Scholar<img class="icon" src="images/icons/arrow-up-right.svg" alt="" width="17" height="17"></a>
         </div>
 
-        <div class="publication-list">
-          <article class="publication">
+        <div class="publication-tools" hidden>
+          <div class="paper-filters" role="group" aria-label="Filter publications">
+            <button type="button" data-filter="selected" aria-pressed="true" aria-controls="paper-list">Selected</button>
+            <button type="button" data-filter="all" aria-pressed="false" aria-controls="paper-list">All work</button>
+            <button type="button" data-filter="papers" aria-pressed="false" aria-controls="paper-list">Peer-reviewed</button>
+            <button type="button" data-filter="reports" aria-pressed="false" aria-controls="paper-list">Reports &amp; preprints</button>
+          </div>
+          <div class="paper-search">
+            <img class="icon" src="images/icons/search.svg" alt="" width="17" height="17">
+            <label class="sr-only" for="paper-search">Search publications</label>
+            <input id="paper-search" type="search" placeholder="Search papers" autocomplete="off">
+          </div>
+        </div>
+        <div class="publication-status" hidden><p id="paper-count" role="status" aria-live="polite" aria-atomic="true"></p><span>* Equal contribution</span></div>
+
+        <div class="publication-list" id="paper-list">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Qwen Image PE">
               <img src="images/papers/qwen-image-pe.jpg" alt="First page of Qwen-Image-PE paper" loading="lazy">
             </figure>
@@ -266,7 +289,7 @@
             </div>
           </article>
 
-          <article class="publication">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Qwen Image Layered 1.5">
               <img src="images/papers/qwen-layered-15.jpg" alt="First page of Qwen-Image-Layered 1.5 paper" loading="lazy">
             </figure>
@@ -350,7 +373,7 @@
             </div>
           </article>
 
-          <article class="publication">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Qwen Image Flash">
               <img src="images/papers/qwen-flash.jpg" alt="First page of Qwen-Image-Flash: Rethinking the Training Recipe for Few-Step Distillation">
             </figure>
@@ -374,7 +397,7 @@
             </div>
           </article>
 
-          <article class="publication">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Adaptive Matching Distillation">
               <img src="images/papers/amd.jpg" alt="First page of Adaptive Matching Distillation paper">
             </figure>
@@ -386,7 +409,7 @@
             </div>
           </article>
 
-          <article class="publication">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Lightning Unified Video Editing">
               <img src="images/papers/liveditor.jpg" alt="First page of Lightning Unified Video Editing paper">
             </figure>
@@ -410,7 +433,7 @@
             </div>
           </article>
 
-          <article class="publication">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for PISA">
               <img src="images/papers/pisa.jpg" alt="First page of PISA paper">
             </figure>
@@ -446,7 +469,7 @@
             </div>
           </article>
 
-          <article class="publication">
+          <article class="publication" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for diffusion dataset condensation">
               <img src="images/papers/d2c.jpg" alt="First page of Accelerating Diffusion Model Training under Minimal Budgets">
             </figure>
@@ -458,12 +481,12 @@
             </div>
           </article>
 
-          <article class="publication featured">
+          <article class="publication featured" data-selected>
             <figure class="paper-preview" aria-label="PDF first page for Golden Noise">
               <img src="images/papers/golden-noise.jpg" alt="First page of Golden Noise paper">
             </figure>
             <div class="paper-copy">
-              <div class="pub-meta"><span>ICCV 2025</span><span>123 citations</span></div>
+              <div class="pub-meta"><span>ICCV 2025</span><span>124 citations</span></div>
               <h3><a href="https://arxiv.org/abs/2411.09502" target="_blank" rel="noopener">Golden Noise for Diffusion Models: A Learning Framework</a></h3>
               <p class="authors"><strong>Zikai Zhou</strong>, Shitong Shao, Lichen Bai, Shufei Zhang, Zhiqiang Xu, Bo Han, Zeke Xie.</p>
               <p class="summary">Introduces a learning framework for finding stronger initial noise patterns, improving diffusion generation by optimizing the starting point of the sampling process.</p>
@@ -578,13 +601,17 @@
             </div>
           </article>
         </div>
-        <p class="note">* Equal contribution. Technical report entries reflect the Qwen Image series contributions listed in the CV and Google Scholar profile.</p>
+        <div class="paper-empty" hidden><p>No matching papers.</p><button type="button" class="text-link" id="reset-papers">Reset filters</button></div>
+        <div class="publication-footer">
+          <p class="note">* Equal contribution. Reports and preprints are listed separately from peer-reviewed papers.</p>
+          <button class="text-link" id="show-all-papers" type="button" hidden>View all publications<img class="icon" src="images/icons/arrow-up-right.svg" alt="" width="17" height="17"></button>
+        </div>
       </section>
 
       <section id="experience" class="section two-column">
         <div class="section-title">
-          <p class="kicker">Experience</p>
-          <h2>Research that ships into model systems.</h2>
+          <p class="kicker"><span class="section-number">04</span> Experience</p>
+          <h2>From research<br>to real systems.</h2>
         </div>
         <div class="timeline">
           <article>
@@ -608,7 +635,7 @@
       <section id="service" class="section compact-grid">
         <article>
           <p class="kicker">Education</p>
-          <h2>HKUST(GZ) and BIT</h2>
+          <h2>Education</h2>
           <p>MPhil student in Artificial Intelligence at HKUST(GZ), supervised by Prof. Zeke Xie. B.Eng. in Computer Science from Beijing Institute of Technology, Outstanding Graduate 2025.</p>
         </article>
         <article>
@@ -624,62 +651,14 @@
       </section>
     </main>
 
-    <div class="lightbox" id="paper-lightbox" hidden>
-      <button class="lightbox-close" type="button" aria-label="Close enlarged paper preview">Close</button>
-      <img src="" alt="">
-    </div>
+    <dialog class="lightbox" id="paper-lightbox" aria-labelledby="preview-title">
+      <div class="lightbox-toolbar"><p id="preview-title">Paper preview</p><button class="lightbox-close icon-button" type="button" aria-label="Close enlarged paper preview" title="Close preview"><img class="icon" src="images/icons/x.svg" alt="" width="22" height="22"></button></div>
+      <img class="lightbox-image" alt="">
+    </dialog>
 
     <footer class="footer">
-      <p>zzhou440@connect.hkust-gz.edu.cn</p>
-      <p>Last updated <time datetime="2026-11-09">9 November 2026</time></p>
+      <div><a class="footer-name" href="#top">Zikai Zhou</a><a class="footer-email" href="mailto:zzhou440@connect.hkust-gz.edu.cn">zzhou440@connect.hkust-gz.edu.cn</a></div>
+      <div class="footer-end"><p>Last updated <time datetime="2026-11-20">20 November 2026</time></p><a class="icon-button" href="#top" aria-label="Back to top" title="Back to top"><img class="icon" src="images/icons/arrow-up.svg" alt="" width="20" height="20"></a></div>
     </footer>
-    <script>
-      (() => {
-        const lightbox = document.querySelector("#paper-lightbox");
-        const lightboxImage = lightbox.querySelector("img");
-        const closeButton = lightbox.querySelector(".lightbox-close");
-        const previews = document.querySelectorAll(".paper-preview:not(.is-missing)");
-
-        const closeLightbox = () => {
-          lightbox.hidden = true;
-          lightboxImage.removeAttribute("src");
-          lightboxImage.removeAttribute("alt");
-          document.body.classList.remove("is-lightbox-open");
-        };
-
-        previews.forEach((preview) => {
-          const image = preview.querySelector("img");
-          if (!image) return;
-
-          preview.setAttribute("role", "button");
-          preview.setAttribute("tabindex", "0");
-          preview.setAttribute("aria-label", `Enlarge ${image.alt}`);
-
-          const openLightbox = () => {
-            lightboxImage.src = image.src;
-            lightboxImage.alt = image.alt;
-            lightbox.hidden = false;
-            document.body.classList.add("is-lightbox-open");
-            closeButton.focus();
-          };
-
-          preview.addEventListener("click", openLightbox);
-          preview.addEventListener("keydown", (event) => {
-            if (event.key === "Enter" || event.key === " ") {
-              event.preventDefault();
-              openLightbox();
-            }
-          });
-        });
-
-        closeButton.addEventListener("click", closeLightbox);
-        lightbox.addEventListener("click", (event) => {
-          if (event.target === lightbox) closeLightbox();
-        });
-        document.addEventListener("keydown", (event) => {
-          if (event.key === "Escape" && !lightbox.hidden) closeLightbox();
-        });
-      })();
-    </script>
   </body>
 </html>
